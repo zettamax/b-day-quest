@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Anna B-day Quest</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1" id="name"></span>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="" id="img">
+                    <div class="card-body">
+                        <h5 class="card-title" id="title"></h5>
+                        <p class="card-text" id="summary"></p>
+
+                        <form class="form" onsubmit="return false">
+                            <p>
+                                <input class="form-control mr-sm-2"
+                                       type="text"
+                                       id="result"
+                                       pattern="[0-9]*"
+                                       placeholder="Ответ">
+                            </p>
+                            <button class="btn btn-outline-primary my-2 my-sm-0" id="button"></button>
+                            <small class="form-text text-muted"
+                                   id="help"
+                                   style="display: none"
+                            >
+                                Подумай еще
+                            </small>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/quest.js"></script>
+</body>
+</html>
