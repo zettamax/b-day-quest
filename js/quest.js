@@ -23,6 +23,14 @@ $(function () {
             button: "Вперед!",
             result: "1313"
         },
+        {
+            name: "Финиш",
+            img_src: "https://st3.depositphotos.com/1177973/14063/i/450/depositphotos_140637504-stock-photo-funny-fat-man.jpg",
+            title: "Поздравляю! Квест пройден :)",
+            summary: "Ты успешно прошла все задания",
+            button: "Открыть поздравление",
+            result: true
+        },
     ];
 
     let step = 0;
@@ -31,14 +39,15 @@ $(function () {
         $name.text(steps[step].name);
         if (steps[step].img_src) {
             $img.attr('src', steps[step].img_src);
+            $img.show();
         } else {
             $img.attr('src', '');
             $img.hide();
         }
-        if (steps[step].result) {
-            $result.show()
-        } else {
+        if (steps[step].result === null || steps[step].result === true) {
             $result.hide();
+        } else {
+            $result.show()
         }
         $title.text(steps[step].title);
         $summary.text(steps[step].summary);
@@ -47,10 +56,12 @@ $(function () {
     renderStep(step);
 
     $button.on('click', function () {
-        if (!steps[step].result || steps[step].result === $result.val()) {
+        if (steps[step].result === null || steps[step].result === $result.val()) {
             $result.val('');
             step++;
             renderStep();
+        } else if (steps[step].result === true) {
+            window.location = 'http://google.com';
         } else {
             $result.val('');
             $help.dequeue().fadeIn();
