@@ -123,6 +123,7 @@ $(function () {
             $result.val('');
             step++;
             renderStep();
+            window.location.hash = '#';
         } else if (steps[step].result === true) {
             window.location = 'https://www.youtube.com/watch?v=_2QaDZFD3wE';
         } else {
