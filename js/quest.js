@@ -85,7 +85,7 @@ $(function () {
             img_src: "https://zakon.ru/Content/entriesattachments/6567d90b-5012-4538-80df-67acb8d1c7f8.jpg",
             title: "Штампы, штампы, штампы",
             summary: "Ты пропесочила эту комнату, теперь тебе следует ее опечатать",
-            button: "Ну вы даете!",
+            button: "Готово!",
             result: "1718"
         },
         {
