@@ -99,7 +99,7 @@ $(function () {
         {
             name: "Финиш!",
             img_src: "https://st3.depositphotos.com/1177973/14063/i/450/depositphotos_140637504-stock-photo-funny-fat-man.jpg",
-            title: "Поздравляю! Осталось получить подарок",
+            title: "Поздравляем! Осталось получить подарок",
             summary: "Клад спрятан в тайнике у реки",
             button: "Спасибо за квест!",
             result: true
