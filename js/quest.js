@@ -22,7 +22,7 @@ $(function () {
             title: "Под носом",
             summary: "То, что тебе надо, у тебя сейчас в руках. Найди задание и реши",
             button: "Я знаю ответ!",
-            result: "1"
+            result: "60"
         },
         {
             name: "Задание второе",
@@ -58,11 +58,11 @@ $(function () {
         },
         {
             name: "Задание шестое, не последнее",
-            img_src: "swsw0swsw-sww",
+            img_src: "https://klike.net/uploads/posts/2020-01/1580117105_13.jpg",
             title: "Пораскинь мозгами #2",
-            summary: "",
-            button: "Я умею гуглить!",
-            result: "1"
+            summary: "Итак, чтобы получить следующий ответ, возьми количество литров в барреле и раздели на количество високосных дней,которые ты прожила. Ответ округли",
+            button: "Получилось!",
+            result: "20"
         },
         {
             name: "Задание седьмое",
@@ -89,7 +89,7 @@ $(function () {
             result: "1718"
         },
         {
-            name: "Десяточка",
+            name: "Десятое задание",
             img_src: "https://pro-alko.ru/wp-content/uploads/2019/03/Viski_sauer_klassicheskiy_i_originalnye_recepty_kokteylya__sostav_i_proporcii_1.jpg",
             title: "Фух! Вот это жаришка!",
             summary: "Пора бы нам охладиться. Ответ спрятан В ТОМ, без чего не обойдется ни один коктейль",
